@@ -28,7 +28,7 @@ mvn clean install
 
 ---
 
-🧪 How to Run the Test Cases
+## *🧪 How to Run the Test Cases**
 Run all tests:
 mvn test
 
@@ -38,5 +38,5 @@ Right-click → Run
 
 ---
 
-🔧 Selenium Version Used
+## *🔧 Selenium Version Used**
 Selenium WebDriver: 4.20.0
