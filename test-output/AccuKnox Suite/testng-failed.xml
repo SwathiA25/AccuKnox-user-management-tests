@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AccuKnox Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="UserManagementTests(failed)">
+    <classes>
+      <class name="tests.UserManagementTest">
+        <methods>
+          <include name="testValidateUpdatedDetails"/>
+          <include name="afterMethod"/>
+          <include name="testLogin"/>
+          <include name="afterClass"/>
+          <include name="testNavigateToAdminModule"/>
+          <include name="beforeMethod"/>
+          <include name="testAddNewUser"/>
+          <include name="testDeleteUser"/>
+          <include name="testSearchNewlyCreatedUser"/>
+          <include name="testEditAllPossibleDetails_EditUsername"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.UserManagementTest -->
+    </classes>
+  </test> <!-- UserManagementTests(failed) -->
+</suite> <!-- Failed suite [AccuKnox Suite] -->

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-20T21:09:17 IST" name="AccuKnox Suite" finished-at="2025-11-20T21:10:31 IST" duration-ms="73516">
+    <groups>
+    </groups>
+    <test started-at="2025-11-20T21:09:17 IST" name="UserManagementTests" finished-at="2025-11-20T21:10:31 IST" duration-ms="73516">
+      <class name="tests.UserManagementTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:09:17 IST" name="beforeClass" finished-at="2025-11-20T21:09:33 IST" duration-ms="16258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:09:33 IST" name="beforeMethod" finished-at="2025-11-20T21:09:33 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserManagementTest.testLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLogin()[pri:1, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:09:33 IST" name="testLogin" finished-at="2025-11-20T21:09:39 IST" duration-ms="5458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:09:39 IST" name="afterMethod" finished-at="2025-11-20T21:09:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=UserManagementTest.testLogin()[pri:1, instance:tests.UserManagementTest@7e6f74c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:09:39 IST" name="beforeMethod" finished-at="2025-11-20T21:09:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserManagementTest.testNavigateToAdminModule()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testNavigateToAdminModule()[pri:2, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:09:39 IST" name="testNavigateToAdminModule" finished-at="2025-11-20T21:09:41 IST" depends-on-methods="tests.UserManagementTest.testLogin" duration-ms="2373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToAdminModule -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:09:41 IST" name="afterMethod" finished-at="2025-11-20T21:09:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNavigateToAdminModule status=SUCCESS method=UserManagementTest.testNavigateToAdminModule()[pri:2, instance:tests.UserManagementTest@7e6f74c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:09:41 IST" name="beforeMethod" finished-at="2025-11-20T21:09:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserManagementTest.testAddNewUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAddNewUser()[pri:3, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:09:41 IST" name="testAddNewUser" finished-at="2025-11-20T21:09:55 IST" depends-on-methods="tests.UserManagementTest.testNavigateToAdminModule" duration-ms="13415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewUser -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:09:55 IST" name="afterMethod" finished-at="2025-11-20T21:09:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddNewUser status=SUCCESS method=UserManagementTest.testAddNewUser()[pri:3, instance:tests.UserManagementTest@7e6f74c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:09:55 IST" name="beforeMethod" finished-at="2025-11-20T21:09:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserManagementTest.testSearchNewlyCreatedUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSearchNewlyCreatedUser()[pri:4, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:09:55 IST" name="testSearchNewlyCreatedUser" finished-at="2025-11-20T21:09:56 IST" depends-on-methods="tests.UserManagementTest.testAddNewUser" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchNewlyCreatedUser -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:09:56 IST" name="afterMethod" finished-at="2025-11-20T21:09:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchNewlyCreatedUser status=SUCCESS method=UserManagementTest.testSearchNewlyCreatedUser()[pri:4, instance:tests.UserManagementTest@7e6f74c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:09:56 IST" name="beforeMethod" finished-at="2025-11-20T21:09:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserManagementTest.testEditAllPossibleDetails_EditUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testEditAllPossibleDetails_EditUsername()[pri:5, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:09:56 IST" name="testEditAllPossibleDetails_EditUsername" finished-at="2025-11-20T21:10:09 IST" depends-on-methods="tests.UserManagementTest.testSearchNewlyCreatedUser" duration-ms="13258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditAllPossibleDetails_EditUsername -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:10:09 IST" name="afterMethod" finished-at="2025-11-20T21:10:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditAllPossibleDetails_EditUsername status=SUCCESS method=UserManagementTest.testEditAllPossibleDetails_EditUsername()[pri:5, instance:tests.UserManagementTest@7e6f74c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:10:09 IST" name="beforeMethod" finished-at="2025-11-20T21:10:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserManagementTest.testValidateUpdatedDetails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testValidateUpdatedDetails()[pri:6, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:10:09 IST" name="testValidateUpdatedDetails" finished-at="2025-11-20T21:10:10 IST" depends-on-methods="tests.UserManagementTest.testEditAllPossibleDetails_EditUsername" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUpdatedDetails -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:10:10 IST" name="afterMethod" finished-at="2025-11-20T21:10:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateUpdatedDetails status=SUCCESS method=UserManagementTest.testValidateUpdatedDetails()[pri:6, instance:tests.UserManagementTest@7e6f74c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:10:10 IST" name="beforeMethod" finished-at="2025-11-20T21:10:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UserManagementTest.testDeleteUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testDeleteUser()[pri:7, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:10:10 IST" name="testDeleteUser" finished-at="2025-11-20T21:10:30 IST" depends-on-methods="tests.UserManagementTest.testValidateUpdatedDetails" duration-ms="20111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:10:30 IST" name="afterMethod" finished-at="2025-11-20T21:10:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteUser status=SUCCESS method=UserManagementTest.testDeleteUser()[pri:7, instance:tests.UserManagementTest@7e6f74c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.UserManagementTest@7e6f74c]" started-at="2025-11-20T21:10:30 IST" name="afterClass" finished-at="2025-11-20T21:10:31 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.UserManagementTest -->
+    </test> <!-- UserManagementTests -->
+  </suite> <!-- AccuKnox Suite -->
+</testng-results>
